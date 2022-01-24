@@ -169,13 +169,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -422,13 +422,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -681,13 +681,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -946,13 +946,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -1211,13 +1211,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -1465,13 +1465,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -1702,13 +1702,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -1929,13 +1929,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -2182,13 +2182,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -2434,13 +2434,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -2685,13 +2685,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -2950,13 +2950,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -3217,13 +3217,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
@@ -3468,13 +3468,13 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - Euro.BRACKET.125
+ - parenleft.numerator
  - uni20B4.BRACKET.125
  - .null
- - parenright.numerator
- - yen.BRACKET.125
- - parenright.denominator
  - uni030C.alt
- - parenleft.numerator 
+ - parenright.denominator
+ - yen.BRACKET.125
+ - parenright.numerator 
  - And parenleft.denominator
  [code: unreachable-glyphs]
 
