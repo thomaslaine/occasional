@@ -19,7 +19,7 @@ the document, no more than 10 lines away from the top of the file.</pre>
 <br>
 </details>
 <details>
-<summary><b>[22] occasional-Regular.ttf</b></summary>
+<summary><b>[24] occasional29-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
 
@@ -99,6 +99,30 @@ When in doubt, please choose OFL for new font projects.</pre>
 
 </details>
 <details>
+<summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
+<pre>--- Rationale ---
+Checks that the family name infered from the font filename matches the string at
+nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise checks
+that nameID 1 is the family name + the style name.</pre>
+
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "occasional 29" but got "occasional29". [code: mismatch]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
+<pre>--- Rationale ---
+Requirements for the FULL_FONT_NAME entries in the &#x27;name&#x27; table.</pre>
+
+* 🔥 **FAIL** [FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: "occasional 29 Regular"
+But got:  "occasional29 Regular" [code: bad-entry]
+
+</details>
+<details>
 <summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</summary>
 
 * [com.google.fonts/check/os2/use_typo_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics)
@@ -117,7 +141,7 @@ It has the added benefit of future line height compatibility. When a new script
 is added, we simply change the Win values to the new yMin and yMax, without
 needing to worry if the line height have changed.</pre>
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/occasional-Regular.ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/occasional29-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 
 </details>
 <details>
@@ -138,7 +162,7 @@ means the font developer can control the linespacing with the typo values,
 whilst avoiding clipping by setting the win values to values greater than the
 yMax and abs(yMin).</pre>
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 276, but got 275 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 374, but got 265 instead. [code: descent]
 
 </details>
 <details>
@@ -161,7 +185,7 @@ unacceptably broken when it is possible to avoid it.
 If users complain and prefer the old broken version, they have the freedom to
 take care of their own situation.</pre>
 
-* 🔥 **FAIL** OS/2 sTypoAscender (780) and hhea ascent (925) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2 sTypoAscender (800) and hhea ascent (935) must be equal. [code: ascender]
 
 </details>
 <details>
@@ -271,18 +295,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - sortie_courte
  - pique
- - _attaque_bdhklpd
- - bole
- - stem_upp
- - t_barre
- - bowl
  - stroke.t
- - upper_serif.cap
- - _attaque_ij
+ - bole
+ - sortie_courte
+ - _attaque_bdhklpd
+ - stem_upp
+ - _serif_cap_long
+ - ud
+ - t_barre
  - nouveauGlyphe 
- - And ud
+ - And 3 more.
+
+Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
 
 </details>
@@ -316,7 +341,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: five	Contours detected: 2	Expected: 1
  - Glyph name: seven	Contours detected: 2	Expected: 1
  - Glyph name: eight	Contours detected: 2	Expected: 3 
- - And 60 more.
+ - And 64 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -354,16 +379,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* exclam (U+0021): X=44.0,Y=2.0 (should be at baseline 0?)
 	* four (U+0034): X=70.0,Y=1.0 (should be at baseline 0?)
 	* four (U+0034): X=99.0,Y=-1.5 (should be at baseline 0?)
 	* four (U+0034): X=70.0,Y=1.0 (should be at baseline 0?)
-	* six (U+0036): X=97.0,Y=2.0 (should be at baseline 0?)
-	* G (U+0047): X=515.0,Y=-1.0 (should be at baseline 0?)
-	* J (U+004A): X=80.0,Y=2.0 (should be at baseline 0?)
-	* asciicircum (U+005E): X=72.0,Y=2.0 (should be at baseline 0?)
-	* underscore (U+005F): X=50.0,Y=-2.0 (should be at baseline 0?)
-	* grave (U+0060): X=270.0,Y=778.0 (should be at ascender 780?) and 10 more.
+	* G (U+0047): X=525.0,Y=-1.0 (should be at baseline 0?)
+	* Q (U+0051): X=492.0,Y=762.0 (should be at cap-height 764?)
+	* T (U+0054): X=277.0,Y=2.0 (should be at baseline 0?)
+	* T (U+0054): X=188.0,Y=2.0 (should be at baseline 0?)
+	* T (U+0054): X=476.0,Y=2.0 (should be at baseline 0?)
+	* T (U+0054): X=387.0,Y=2.0 (should be at baseline 0?)
+	* underscore (U+005F): X=50.0,Y=-2.0 (should be at baseline 0?) and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -383,13 +408,13 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* four (U+0034) contains a short segment B<<337.5,373.0>-<334.0,367.0>-<327.0,367.0>>
 	* nine (U+0039) contains a short segment L<<482.0,773.0>--<493.0,773.0>>
 	* nine (U+0039) contains a short segment L<<432.0,-15.0>--<423.0,-15.0>>
-	* question (U+003F) contains a short segment L<<104.0,334.0>--<105.0,334.0>>
-	* question (U+003F) contains a short segment L<<495.0,137.0>--<494.0,137.0>>
-	* question (U+003F) contains a short segment L<<398.0,334.0>--<399.0,334.0>>
-	* question (U+003F) contains a short segment L<<201.0,186.0>--<200.0,186.0>>
-	* A (U+0041) contains a short segment B<<661.0,75.0>-<659.0,79.0>-<659.0,79.0>>
-	* A (U+0041) contains a short segment B<<659.0,79.0>-<659.0,79.0>-<657.0,83.0>>
-	* K (U+004B) contains a short segment B<<259.0,353.0>-<248.0,344.0>-<237.5,335.5>> and 35 more.
+	* question (U+003F) contains a short segment L<<102.0,343.0>--<105.0,343.0>>
+	* question (U+003F) contains a short segment L<<396.0,343.0>--<398.0,343.0>>
+	* question (U+003F) contains a short segment L<<201.0,343.0>--<202.0,343.0>>
+	* H (U+0048) contains a short segment L<<348.0,33.0>--<348.0,0.0>>
+	* H (U+0048) contains a short segment L<<60.0,0.0>--<60.0,33.0>>
+	* H (U+0048) contains a short segment L<<60.0,731.0>--<60.0,764.0>>
+	* H (U+0048) contains a short segment L<<348.0,764.0>--<348.0,731.0>> and 42 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 
@@ -405,13 +430,7 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* Z (U+005A): L<<158.0,53.0>--<346.0,53.0>> -> L<<346.0,53.0>--<417.0,54.0>>
-	* i (U+0069): L<<210.0,514.0>--<211.0,418.0>> -> L<<211.0,418.0>--<211.0,31.0>>
-	* j (U+006A): L<<200.0,514.0>--<201.0,418.0>> -> L<<201.0,418.0>--<201.0,-39.0>>
-	* m (U+006D): L<<210.0,514.0>--<211.0,418.0>> -> L<<211.0,418.0>--<211.0,406.0>>
-	* n (U+006E): L<<210.0,514.0>--<211.0,418.0>> -> L<<211.0,418.0>--<211.0,406.0>>
-	* r (U+0072): L<<210.0,516.0>--<211.0,420.0>> -> L<<211.0,420.0>--<211.0,414.0>>
-	* u (U+0075): L<<412.0,-14.0>--<411.0,82.0>> -> L<<411.0,82.0>--<411.0,94.0>> and ugrave (U+00F9): L<<412.0,-14.0>--<411.0,82.0>> -> L<<411.0,82.0>--<411.0,94.0>> [code: found-colinear-vectors]
+	* W (U+0057): L<<59.0,726.0>--<59.0,726.0>> -> L<<59.0,726.0>--<59.0,726.0>> and Z (U+005A): L<<158.0,53.0>--<346.0,53.0>> -> L<<346.0,53.0>--<417.0,54.0>> [code: found-colinear-vectors]
 
 </details>
 <details>
@@ -425,7 +444,7 @@ cases such as extreme ink traps, so should be regarded as advisory and backed up
 by manual inspection.</pre>
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* A (U+0041): L<<364.0,740.0>--<687.0,14.0>>/L<<687.0,14.0>--<661.0,75.0>> = 0.8993189268805636 [code: found-jaggy-segments]
+	* B (U+0042): B<<469.5,434.0>-<430.0,419.0>-<390.0,415.0>>/L<<390.0,415.0>--<404.0,415.0>> = 5.710593137499633 [code: found-jaggy-segments]
 
 </details>
 <details>
@@ -440,14 +459,13 @@ This check is disabled for italic styles, which often contain nearly-upright
 lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * C (U+0043): L<<693.0,212.0>--<692.0,25.0>>
- * N (U+004E): L<<709.0,175.0>--<706.0,686.0>>
- * c (U+0063): L<<426.0,496.0>--<427.0,364.0>>
- * e (U+0065): L<<125.0,335.0>--<367.0,336.0>>
- * eacute (U+00E9): L<<125.0,335.0>--<367.0,336.0>>
- * edieresis (U+00EB): L<<125.0,335.0>--<367.0,336.0>>
- * egrave (U+00E8): L<<125.0,335.0>--<367.0,336.0>>
- * two (U+0032): L<<151.0,83.0>--<357.0,84.0>> and zero (U+0030): L<<372.0,164.0>--<130.0,165.0>> [code: found-semi-vertical]
+ * N (U+004E): L<<730.0,215.0>--<727.0,726.0>>
+ * c (U+0063): L<<428.0,496.0>--<429.0,368.0>>
+ * e (U+0065): L<<131.0,335.0>--<372.0,336.0>>
+ * eacute (U+00E9): L<<131.0,335.0>--<372.0,336.0>>
+ * edieresis (U+00EB): L<<131.0,335.0>--<372.0,336.0>>
+ * egrave (U+00E8): L<<131.0,335.0>--<372.0,336.0>>
+ * two (U+0032): L<<151.0,83.0>--<357.0,84.0>> and zero (U+0030): L<<377.0,164.0>--<136.0,165.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -457,8 +475,8 @@ lines.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 8 | 12 | 109 | 7 | 83 | 0 |
-| 1% | 4% | 5% | 49% | 3% | 37% | 0% |
+| 3 | 10 | 12 | 109 | 7 | 81 | 0 |
+| 1% | 5% | 5% | 49% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
